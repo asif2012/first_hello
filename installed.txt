@@ -1,0 +1,219 @@
+    1  ls
+    2  mkdir ASIF
+    3  ls
+    4  sudo apt get update
+    5  sudo apt update
+    6  sudo apt install gedit
+    7  sudo apt install gcc
+    8  sudo apt install gdb
+    9  sudo apt install terminator
+   10  sudo apt install g++
+   11  sudo apt install qemu
+   12  sudo apt install qemu-system
+   13  sudo apt install qemu-utils
+   14  sudo apt install qemu-kvm
+   15  qemu --version
+   16  lsb_release -a
+   17  sudo apt install git
+   18  sudo apt 
+   19  sudo apt install nfs-kernel-server
+   20  sudo apt get update
+   21  sudo apt update
+   22  sudo apt install build-essential
+   23  sudo apt install git
+   24  sudo apt install autoconf
+   25  sudo apt install bison
+   26  sudo apt install flex
+   27  sudo apt install texinfo
+   28  sudo apt install help2man
+   29  sudo apt install gawk
+   30  sudo apt install libtool-bin
+   31  sudo apt install libncurses-dev
+   32  sudo apt install unzip
+   33  ls
+   34  sudo apt install automake
+   35  sudo apt install chrpath
+   36  sudo apt install g++
+   37  sudo apt install gperf
+   38  sudo apt install gawk
+   39  sudo apt install libexpatl-dev
+   40  sudo apt install libsdll.2-dev
+   41  sudo apt install libtool
+   42  sudo apt install python2.7-dev
+   43  sudo apt install vim
+   44  restart
+   45  history
+   46  ls
+   47  cd ASIF/
+   48  gedit installed.txt
+   49  ls
+   50  history > installed.txt
+   51  ls
+   52  cat installed.txt 
+   53  du -sh /var/cache/apt/archives/
+   54  sudo-get clean
+   55  sudo apt-get clean
+   56  ls
+   57  ls /var/cache/
+   58  ls /var/cache/apt/
+   59  ls /var/cache/apt/archives/
+   60  sudo apt clean
+   61  ls /var/cache/apt/archives/
+   62  ls /var/cache/apt/archives/partial/
+   63  sudo ls /var/cache/apt/archives/partial/
+   64  cd
+   65  ls
+   66  cd ASIF/
+   67  ls
+   68  gedit installed.txt 
+   69  ls
+   70  cd ASIF/
+   71  ls
+   72  sudo apt update
+   73  cd /home/
+   74  ls
+   75  cd asif/
+   76  ls
+   77  cd /
+   78  ls
+   79  cd opt/
+   80  ls
+   81  cd ../mnt/
+   82  ls
+   83  cd ../media/
+   84  ls
+   85  cd ASIF/
+   86  ls
+   87  cd BBB/
+   88  ls
+   89  cd embedded-linux-bbb-labs/
+   90  ls
+   91  cd bootloader/
+   92  ls
+   93  cd data/
+   94  ls
+   95  cd ../..
+   96  ls
+   97  cd toolchain/
+   98  ls
+   99  cd ..
+  100  ls
+  101  cd buildroot/
+  102  ls
+  103  cd data/
+  104  ls
+  105  cd ..
+  106  ls
+  107  cd ..
+  108  ls
+  109  cd tinysystem/
+  110  ls
+  111  cd data/
+  112  ls
+  113  cd ..
+  114  ls
+  115  cd hardware/
+  116  ls
+  117  cd data/
+  118  ls
+  119  cd nn
+  120  ls
+  121  cd nunchuk/
+  122  ls
+  123  cat Makefile 
+  124  cat nunchuk.c 
+  125  cat nunchuk.c | grep
+  126  ls
+  127  cd ASIF/
+  128  ls
+  129  cd BBB/
+  130  ls
+  131  cd toolchain/
+  132  ls
+  133  cd crosstool-ng/
+  134  ls
+  135  cd /
+  136  ls
+  137  cd
+  138  ls
+  139  cd x-tools/
+  140  ls
+  141  cd arm-training-linux-musleabihf/
+  142  ls
+  143  cd arm-training-linux-musleabihf/
+  144  ls
+  145  cd bin/
+  146  ls
+  147  cd ..
+  148  ls
+  149  cd ..
+  150  ls
+  151  cd bin/
+  152  ls
+  153  ls -l
+  154  ls | less
+  155  ls
+  156  ls arm-linux-gcc
+  157  pwd
+  158  cd 
+  159  ls
+  160  cd ASIF/
+  161  ls
+  162  cd BBB/
+  163  ls
+  164  cd toolchain/
+  165  ls
+  166  cd ..
+  167  ls
+  168  cp ../../hello.c .
+  169  ls
+  170  /home/asif/x-tools/arm-training-linux-musleabihf/bin/arm-linux-gcc hello.c -o hello
+  171  ls
+  172  ./hello 
+  173  qemu-arm hello
+  174  sudo apt install qemu-user
+  175  qemu-arm hello
+  176  find ~/x-tools -name ld-musl-armhf.so.1
+  177  qemu-arm -L [200~x-tools -name ld-musl-armhf.so.1hello
+  178  qemu-arm -L /home/asif/x-tools/arm-training-linux-musleabihf/arm-training-linux-musleabihf/sysroot hello
+  179  sudo apt install picocom
+  180  ls -l /dev/ttyUSB0
+  181  ls
+  182  git clone https://source.denx.de/u-boot/u-boot.git/
+  183  ls
+  184  cd u-boot/
+  185  ls
+  186  git checkout v2024.04
+  187  ls
+  188  export CROSS_COMPILE=arm-linux-
+  189  ls config/ | grep am335
+  190  ls configs/ | grep am335
+  191  make am335x_evm_defconfig
+  192  ls
+  193  cat M
+  194  cat Makefile 
+  195  sudo apt install libssl-dev device-tree-compiler swig python3-dev python3-setuptools
+  196  cd ..
+  197  ls
+  198  git clone https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux
+  199  ls
+  200  tar -cvf u-boot.tar u-boot/
+  201  ls
+  202  tar -cvf linux.tar linux/
+  203  ls
+  204  cd toolchain/
+  205  ls
+  206  cd ..
+  207  ls
+  208  git clone https://git.busybox.net/busybox
+  209  ls
+  210  git clone https://git.busybox.net/busybox
+  211  git clone https://git.busybox.net/busybox/
+  212  ls
+  213  git clone https://git.busybox.net/busybox
+  214  ping google.com
+  215  git clone https://git.busybox.net/busybox
+  216  ping google.com
+  217  git clone https://git.busybox.net/busybox
+  218  history
+  219  history > ASIF/installed.txt 
